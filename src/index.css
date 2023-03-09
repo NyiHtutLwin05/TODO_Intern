@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;1,300&family=Dancing+Script:wght@600&family=Golos+Text:wght@500&family=Montserrat:ital@0;1&family=Noto+Sans:wght@300&family=Original+Surfer&family=Prompt&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Original Surfer', cursive;
+}
+body{
+  background-color: aliceblue;
+}
+form{
+  margin-top: 2rem;
+}
+ .todoInput{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputBtn{
+  width: 20rem; height: 2rem;
+}
+.addBtn{
+  height: 2rem; width: 3rem;
+  color: black;
+  font-weight: 600;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid darkblue;
+  transition: all .3s ease;
+}
+.addBtn:hover{
+ border: 2px solid black;
+ color: rgb(6, 222, 150);
+}
+.inputSec{
+  margin-top: 12px;
+}
+.btn{
+  width: 5rem; height: 2rem;
+  color: black;
+  font-weight: 600;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid darkblue;
+  transition: all .3s ease;
+}
+.btn:hover{
+  border: 2px solid black;
+  color: rgb(6, 222, 150);
+}
